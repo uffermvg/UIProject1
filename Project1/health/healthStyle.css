@@ -1,0 +1,112 @@
+:root{
+    --red: #EC380B;
+    --peach: #F05F3B;
+    --lightBlue: #bce0de;
+    --medBlue: #429F9E;
+    --darkBlue: #007872;
+    --middle: #FAC213;
+    --reddark: #fac6b8;
+    --middledark: #fbef9fed;
+}
+
+.interface p{
+    font-size: 40px;
+    font-family: 'Alfa Slab One', Sans-Serif;
+    color: var(--main);
+    text-shadow: 2px 2px 5px var(--black);
+  }
+  
+  .interface h1{
+    color: var(--heading);
+    align-self: center;
+    text-shadow: var(--background);
+    font-size: 60px;
+    font-family: 'Fugaz One', Sans-Serif;
+    color: var(--red);
+    
+  }
+  
+  .interface{
+      display: flex;
+      flex-direction:column;
+      justify-content: space-around;
+      background-color: var(--platinum);
+      min-width: 370px;
+      min-height: 570px;
+      max-width: 920px;
+      margin: 5px;
+      line-height: 60px;
+      flex-grow: 1;
+      align-items:auto;
+      flex-wrap: wrap;
+  }
+
+  .healthinfo{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .healthinfo>div{
+    width: 100%;
+  }
+  
+  .interface>div{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  .bugs{
+    background-color: var(--peach);
+    border-radius: 20%;
+     border: 2px solid var(--platinum);
+  }
+  .bugs>p{
+    margin: 20px;
+    color: var(--reddark);
+    text-shadow: 2px 2px 5px var(--black);
+  }
+
+  .bugs>i{
+    margin: 20px;
+    font-size: 60px;
+    color: var(--reddark);
+    text-shadow: 2px 2px 5px var(--black);
+  }
+
+  .enofWater{
+    background-color: var(--medBlue);
+    border-radius: 20%;
+     border: 2px solid var(--platinum);
+  }
+  .enofWater>p{
+    margin: 20px;
+    color: var(--lightBlue);
+    text-shadow: 2px 2px 5px var(--black);
+  }
+
+  .enofWater>i{
+    margin: 20px;
+    font-size: 60px;
+    color: var(--lightBlue);
+    text-shadow: 2px 2px 5px var(--black);
+  }
+
+  .enofSunlight{
+    background-color: var(--middle);
+    border-radius: 20%;
+     border: 2px solid var(--platinum);
+  }
+  .enofSunlight>p{
+    margin: 20px;
+    color: var(--middledark);
+    text-shadow: 2px 2px 5px var(--black);
+  }
+
+  .enofSunlight>i{
+    margin: 20px;
+    font-size: 60px;
+    color: var(--middledark);
+    text-shadow: 2px 2px 5px var(--black);
+  }

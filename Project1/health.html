@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="health/healthStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Fugaz+One:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans:300,400" rel="stylesheet">
+    <div class="banner">
+        <div class="navbar">
+            <img src="plant.png" alt="img" class="logo">
+            <h1>Smart Flower Pot</h1>
+        </div>
+    </div>
+</head>
+<body>
+<div class="flex-container-top">
+    <div class="model">
+        <canvas class="illo" height="400" width="200"></canvas>
+    </div>
+    <div class="interface">
+        <h1>HEALTH</h1>
+        <a href="home.html"><button><i class="material-icons back">chevron_left</i></button></a>
+        <div class="healthinfo">
+            <div class="bugs">
+                <p>Pests: </p>
+                <p id="pests"> </p>
+                <i class="material-icons bug">pest_control</i>
+            </div>
+            <div class="enofWater">
+                <p>Water: </p>
+                <p id="water"></p>
+                <i class="material-icons waterDrop">water_drop</i>
+            </div>
+            <div class="enofSunlight">
+                <p>Light:</p>
+                <p id="sunlight"></p>
+                <i class="material-icons lightMode">light_mode</i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class= "flex-container-bottom">
+    
+</div>
+<script src="zdog.dist.js"></script>
+<script src="ZdogModel.js"></script>
+<script src="health/healthScript.js"></script>
+</body>
+</html>

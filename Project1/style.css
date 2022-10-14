@@ -1,0 +1,237 @@
+
+@import url(https://fonts.googleapis.com/css?family=Vollkorn&display=swap);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Amiko&subset=english);
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display&display=swap);
+
+/*--background: #2F3E46;
+    --model: #52796f;
+    --platinum: #E8E4E6ff;
+    --accent: #354f52;
+    --opal: #84a98c;
+    --white: #cad2c5;*/
+:root{
+    --background: #2F3E46;
+    --model: #84a98c;
+    --platinum: #E8E4E6ff;
+    --accent: #cad2c5;
+    --opal: #354f52;
+    --white: #cad2c5;
+
+    --sun: #F0AE17ff;
+    --water: #035E88ff;
+    --leaf: #65A97Fff;
+    --health: #EC1B25ff;
+    --temp: #E93E23ff;
+
+--black: #211F20ff;
+
+color: rgb(218, 163, 33)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    Font-Family: 'Martel Sans', Sans-Serif;
+    Font-Size: 15px;
+    color: var(--black);
+}
+body{
+    background-color: var(--black);
+}
+
+h1{
+    Font-Family: 'Fugaz One', Sans-Serif;
+    Font-Size: 44px;
+    text-transform: uppercase;
+}
+p{
+    text-transform: uppercase;
+}
+
+.title{
+    Font-Size: 60px;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0, 0, 0, 0.75)),url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHa3SkBdyO1ouqNh6nER-Rd2UjOEyoEIFtd-NDknVQ7ivZQRhwisjQSqCSl6b-oGkBFlCxXR9kbyCwQK8gcHaqR2b9iQNI0JlHxyunDLhmZ1RrhiBgxElu2DlEb7uL5eUKqthV8jIZE3u2rkUTcfmABPpS_b2CDCvWN8g5xyA2IWSSBeyonN98NRwBmw/s1920/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: auto;
+    height: 4.5rem;
+    display: flex;
+    align-items: flex-start;
+    vertical-align: middle;
+    background:var(--black);
+    border-bottom: 5px solid var(--black);
+}
+
+.navbar>h1{
+    color: var(--white);
+    Font-Family: 'Fugaz One';
+    Font-Size: 60px;
+    vertical-align: middle;
+}
+
+.logo{
+    width: auto;
+    height: auto;
+    background-color: var(--model);
+    border: 3px solid var(--black);
+    border-radius: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.flex-container-top{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    height: 100%;
+    flex-wrap: wrap;
+    background-color: var(--opal);
+}
+
+.model{
+    display: flex;
+    background-color: var(--model);
+    width: auto;
+    height: auto;
+    margin: 10px;
+    line-height: 75px;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    border: 3px solid var(--accent);
+}
+
+.illo{
+    align-self: center;
+}
+
+.interface{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    background-color: var(--platinum);
+    min-width: 370px;
+    min-height: 570px;
+    max-width: 920px;
+    margin: 5px;
+    line-height: 60px;
+    flex-grow: 1;
+    align-items:stretch;
+    flex-wrap: wrap;
+}
+
+.interface > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:auto;
+}
+.interface>div>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+
+.interface>div>div>a>button{
+    border: 5px hidden white;
+    background-color: var(--platinum);
+}
+
+i:hover{
+    cursor:pointer;
+
+}
+
+.material-icons.sun{
+    font-size: 200px;
+    color: var(--sun);
+}
+
+.material-icons.sun:hover{
+    color: rgba(236, 205, 29, 0.7);
+}
+
+.material-icons.water{
+    font-size: 200px;
+    color:var(--water);
+}
+
+.material-icons.water:hover{
+    color:rgba(2, 128, 196, 0.7);
+}
+
+.material-icons.leaf{
+    font-size: 200px;
+    color: var(--leaf);
+}
+
+.material-icons.leaf:hover{
+    color: rgba(111, 134, 106, 0.7);
+}
+
+.material-icons.health{
+    font-size: 200px;
+    color: var(--health);
+}
+
+.material-icons.health:hover{
+    color: rgba(236, 27, 37, 0.7);
+}
+
+.material-icons.temp{
+    font-size: 200px;
+    color: var(--temp);
+}
+
+.material-icons.temp:hover{
+    color: rgba(236, 27, 37, 0.7);
+}
+
+.material-icons.back{
+    background-color: var(--platinum);
+}
+
+.material-icons.back:hover{
+    font-size: 25px;
+}
+
+a>button{
+    border: 2px solid var(--platinum);
+    background-color: var(--platinum);
+}
+
+
+.flex-container-bottom{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    height: 100%;
+    -ms-flex-align: 500px;
+    align-items: center;
+    background-color: var(--background);
+}
+.flex-container-bottom>*{
+    width: 99%;
+}
+.flex-container-bottom > div{
+    background-color: var(--accent);
+    height:auto;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    flex-grow: 1;
+}

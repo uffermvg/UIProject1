@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="plant\plantStyle.css">
+    <link rel="stylesheet" href="plant/climberStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Fugaz+One:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans:300,400" rel="stylesheet">
+    <div class="banner">
+        <div class="navbar">
+            <img src="plant.png" alt="img" class="logo">
+            <h1>Smart Flower Pot</h1>
+        </div>
+    </div>
+</head>
+<body>
+<div class="flex-container-top">
+    <div class="model">
+        <canvas class="illo" height="400" width="200"></canvas>
+    </div>
+    <div class="interface">
+        <a href="home.html"><button><i class="material-icons back">chevron_left</i></button></a>
+        <div class="dropdown">
+            <img id="plantImg" src="climbingPhoto.png" alt="img">
+            <h1 id="plantTitle"> CLIMBING AND <br> TRAILING PLANTS   </h1>
+            <button class="dropbtn">Plant Type</button>
+            <div class="dropdown-content">
+            <a href="plant.html">Succulent</a>
+            <a href="Foliage.html">Foliage Plant</a>
+            <a href="fern.html">Fern</a>
+            <a href="climber.html">Climber and Trailer Plant</a>
+            <a href="flower.html">Flowering Plant</a>
+            </div>
+          </div>
+          <div class="about">
+            <h1>About: </h1>
+            <p id="plant Description">
+                Climbing and Trailing plants grown indoors will need to be 
+                clipped back on occasion to restrain their rigorous lengths. 
+                This will also encourage a bushier mien and foster more blooms. 
+                Pruning is best done in the spring before the onset of new growth. 
+                If the plants are a really rapid grower, you may need to prune again in the fall. 
+                Prune just above a node or swelling where a leaf was.
+
+            </p>
+          </div>
+
+          <div  class="plantInfo">
+              <h1 id="sunlight">Sunlight: <p>Tend to thrive in low light</p></h1>
+              <h1 id="water">Water: <p>Water when soil is complely dry</p></h1>
+              <h1 id="temperature">Temperature: <p> As low as -30 &deg F</p></h1>
+          </div>
+        
+    </div>
+</div>
+<div class= "flex-container-bottom">
+    
+</div>
+<script src="zdog.dist.js"></script>
+<script src="ZdogModel.js"></script>
+<script src="plant/plantScript.js"></script>
+</body>
+</html>

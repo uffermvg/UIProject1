@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="plant\plantStyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Fugaz+One:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans:300,400" rel="stylesheet">
+    <div class="banner">
+        <div class="navbar">
+            <img src="plant.png" alt="img" class="logo">
+            <h1>Smart Flower Pot</h1>
+        </div>
+    </div>
+</head>
+<body>
+<div class="flex-container-top">
+    <div class="model">
+        <canvas class="illo" height="400" width="200"></canvas>
+    </div>
+    <div class="interface">
+        <a href="home.html"><button><i class="material-icons back">chevron_left</i></button></a>
+        <div class="dropdown">
+            <img id="plantImg" src="fernPhoto.png" alt="img">
+            <h1 id="plantTitle"> FERNS </h1>
+            
+            <button class="dropbtn">Plant Type</button>
+            <div class="dropdown-content">
+            <a href="plant.html">Succulent</a>
+            <a href="Foliage.html">Foliage Plant</a>
+            <a href="fern.html">Fern</a>
+            <a href="climber.html">Climber and Trailer Plant</a>
+            <a href="flower.html">Flowering Plant</a>
+            </div>
+          </div>
+          <div class="about">
+            <h1>About: </h1>
+            <p id="plant Description">
+                Ferns are among the most beautiful houseplants.
+                 With lacy fronds and a classic texture, they 
+                 work well in just about any interior design 
+                 scheme, from country casual to formal. There's
+                  a wider variety of ferns available than most 
+                  folks realize, so there's abundant opportunity 
+                  to decorate with these houseplants. 
+            </p>
+          </div>
+          <div  class="plantInfo">
+              <h1 id="sunlight">Sunlight: <p>Bright to medium light</p></h1>
+              <h1 id="water">Water: <p>Keep moist but not wet</p></h1>
+              <h1 id="temperature">Temperature: <p>Above 60 &deg  F in high humidity</p></h1>
+          </div>
+        
+    </div>
+</div>
+<div class= "flex-container-bottom">
+    
+</div>
+<script src="zdog.dist.js"></script>
+<script src="ZdogModel.js"></script>
+<script src="plant/plantScript.js"></script>
+</body>
+</html>

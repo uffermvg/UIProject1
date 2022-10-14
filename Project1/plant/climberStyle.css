@@ -1,0 +1,6 @@
+.dropdown>h1{
+    position: absolute;
+    left: 12%;
+    top: -5%;
+    color:var(--white)
+  }

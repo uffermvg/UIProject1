@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="temp/tempStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Fugaz+One:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans:300,400" rel="stylesheet">
+    <div class="banner">
+        <div class="navbar">
+            <img src="plant.png" alt="img" class="logo">
+            <h1>Smart Flower Pot</h1>
+        </div>
+    </div>
+</head>
+<body>
+<div class="flex-container-top">
+    <div class="model">
+        <canvas class="illo" height="400" width="200"></canvas>
+    </div>
+    <div class="interface">
+        <h1 class="title">TEMPERATURE </h1>
+        <a href="home.html"><button><i class="material-icons back">chevron_left</i></button></a>
+        <div class = "temp">
+            <p>Set Temperature: </p>
+        <div class="slidecontainer">
+            <input orient="horizontal" type="range" min="50" max="95" value="65" class="slider" id="myRange">
+        </div>
+        <p id="tp"></p>
+
+        <p>Current Temperature: </p>
+        <p id="ctp"></p>
+    </div>
+        <div class="humid">
+            <p>Set Humidity: </p>
+        <div class="slidecontainer">
+            <input orient="horizontal" type="range" min="0" max="100" value="45" class="humidslider" id="myHumRange">
+        </div>
+        <p id="hm"></p>
+
+        <p>Current Humidity: </p>
+        <p id="chm"></p>
+        </div>
+    </div>
+</div>
+<div class= "flex-container-bottom">
+    
+</div>
+<script src="zdog.dist.js"></script>
+<script src="ZdogModel.js"></script>
+<script src="temp/tempScript.js"></script>
+</body>
+</html>

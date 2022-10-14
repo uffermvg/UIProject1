@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="water/waterStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="roundslider-round-range-slider-html\css\roundslider.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Fugaz+One:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans:300,400" rel="stylesheet">
+    <div class="banner">
+        <div class="navbar">
+            <img src="plant.png" alt="img" class="logo">
+            <h1>Smart Flower Pot</h1>
+        </div>
+    </div>
+</head>
+<body>
+<div class="flex-container-top">
+    <div class="model">
+        <canvas class="illo" height="400" width="200"></canvas>
+    </div>
+    <div class="interface">
+        <h1>WATER</h1>
+        <a href="home.html"><button><i class="material-icons back">chevron_left</i></button></a>
+        <div class="watering">
+            <div class="setTemp">
+                <p>Water Amount: </p>
+                <div class="slidecontainer">
+                    <input orient="horizontal" type="range" min="0" max="100" value="50" class="setWater" id="myRange">
+                </div>
+                <p id="w" class="w"></p>
+            </div>
+            <div id="water" class="water">
+                <i class="material-icons waterNow">water_drop</i>
+                <p id="currentWater"></p>
+            </div>
+        </div>
+        <div class="autoWater">
+            <div class="switchSec">
+                <p>Auto Water</p>
+            <label class="dayswitch">
+                <input type="checkbox" id="showCal">
+                <span class="slider round"></span>
+            </label>
+            </div>
+            <div class="sched">
+                <p id="waterSchedLabel">Schedule: </p>
+            <div id="cal">
+                <button id="Suday" onclick="buttonDown(Suday)">S</button>
+                <button id="Mday" onclick="buttonDown(Mday)">M</button>
+                <button id="Tday" onclick="buttonDown(Tday)">T</button>
+                <button id="Wday" onclick="buttonDown(Wday)">W</button>
+                <button id="Thday" onclick="buttonDown(Thday)">T</button>
+                <button id="Fday" onclick="buttonDown(Fday)">F</button>
+                <button id="Sday" onclick="buttonDown(Sday)">S</button>
+            </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class= "flex-container-bottom">
+    
+</div>
+<script src="zdog.dist.js"></script>
+<script src="ZdogModel.js"></script>
+<script src="water/waterScript.js"></script>
+</body>
+</html>
+

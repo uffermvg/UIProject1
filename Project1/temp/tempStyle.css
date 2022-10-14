@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Vollkorn&display=swap);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Amiko&subset=english);
+
+:root{
+    --purple: #3A0751;
+    --yellow: #F2C85B;
+    --peach: #FBA465;
+    --darkPeach: #F86E51;
+    --coral: #EE3E38;
+    --red: #D1193E;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:PT Sans Narrow;
+    font-size: 20px;
+}
+.interface>a{
+    align-content: left;
+}
+.interface p{
+    font-size: 40px;
+    font-family: 'Alfa Slab One', Sans-Serif;
+    color: var(--main);
+  }
+  
+  .interface h1{
+    color: var(--heading);
+    align-self: center;
+    text-shadow: var(--background);
+    font-size: 60px;
+    font-family: 'Fugaz One', Sans-Serif;
+    color: var(--darkPeach);
+  }
+  
+  .interface{
+      display: flex;
+      flex-direction:column;
+      justify-content: space-around;
+      background-color: var(--platinum);
+      min-width: 370px;
+      min-height: 570px;
+      max-width: 920px;
+      margin: 5px;
+      line-height: 60px;
+      flex-grow: 1;
+      align-items:left;
+      flex-wrap: wrap;
+  }
+  
+  .interface>div{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+.interface>a{
+    width:fit-content;
+}
+.humid{
+    background-color: var(--peach);
+    border-radius: 20%;
+  border: 2px solid var(--platinum);
+  color: var(--coral);
+  height:200px;
+
+}
+
+.temp{
+    background-color: var(--red);
+    border-radius: 20%;
+    border: 2px solid var(--platinum);
+    color: var(--yellow);
+    height: 200px;
+
+}
+
+.temp p{
+    margin-top: 20px;
+}
+
+.humid p{
+    margin-top: 20px;
+}
